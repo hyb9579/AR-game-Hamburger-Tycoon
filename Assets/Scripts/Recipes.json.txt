@@ -1,0 +1,94 @@
+﻿{
+	"Hamburger" : [
+		"BreadSesameBottom",
+		"Patty",
+		"Ketchup",
+		"BreadSesameTop"
+	],
+
+	"CheeseBurger" : [
+		"BreadSesameBottom",
+		"Patty",
+		"Cheese",
+		"Ketchup",
+		"BreadSesameTop"
+	],
+
+	"DoubleCheeseBurger" : [
+		"BreadSesameBottom",
+		"Patty",
+		"Cheese",
+		"Patty",
+		"Cheese",
+		"Ketchup",
+		"BreadSesameTop"
+	],
+
+	"TripleCheeseBurger" : [
+		"BreadSesameBottom",
+		"Patty",
+		"Cheese",
+		"Patty",
+		"Cheese",
+		"Patty",
+		"Cheese",
+		"Ketchup",
+		"BreadSesameTop"
+	],
+
+	"McChicken" : [
+		"BreadSesameBottom",
+		"ChickenPatty",
+		"Lettuces",
+		"PurpleOnions",
+		"BreadSesameTop"
+	],
+
+	"McSpicy" : [
+		"BreadSesameBottom",
+		"ChickenPatty",
+		"Tomatoes",
+		"Lettuces",
+		"PurpleOnions",
+		"BreadSesameTop"
+	],
+
+	"BulgogiBurger" : [
+		"BreadSesameBottom",
+		"BulgogiPatty",
+		"Lettuces",
+		"PurpleOnions",
+		"BreadSesameTop"
+	],
+
+	"DoubleBulgogiBurger" : [
+		"BreadSesameBottom",
+		"BulgogiPatty",
+		"Cheese",
+		"BulgogiPatty",
+		"Lettuces",
+		"PurpleOnions",
+		"BreadSesameTop"
+	],
+
+	"EggBulgogiBurger" : [
+		"BreadSesameBottom",
+		"BulgogiPatty",
+		"FriedEgg",
+		"Lettuces",
+		"PurpleOnions",
+		"BreadSesameTop"
+	],
+
+	"BaconTomatoDelux" : [
+		"BreadSesameBottom",
+		"Patty",
+		"Cheese",
+		"Patty",
+		"Bacons",
+		"Tomatoes",
+		"Lettuces",
+		"PurpleOnions",
+		"BreadSesameTop"
+	]
+}

@@ -1,0 +1,17 @@
+[
+	{
+		"name" : "홍길동",
+		"phoneNumber" : "010****8791",
+		"playTime" : 600
+	},
+	{
+		"name" : "김철수",
+		"phoneNumber" : "010****1234",
+		"playTime" : 590
+	},
+	{
+		"name" : "이영희",
+		"phoneNumber" : "010****1234",
+		"playTime" : 595
+	}
+]
