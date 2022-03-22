@@ -99,9 +99,8 @@ public class PlayUIManager : MonoBehaviour
 
     // 게임 플레이타임
     public float time = 0;
-    
+
     // 변수 초기화
-    // 굳이 Awake()에서 해야할 초기화인지 확인할것
     private void Awake()
     {
         menuE2K = new Dictionary<string, string>()
@@ -134,7 +133,6 @@ public class PlayUIManager : MonoBehaviour
     }
 
     // PlayerUIManager 스크립트가 활성화 되면 새로운 오더를 만든다
-    // 하지만 이 스크립트는 UI만 다루는 목적으로 작성한 스크립트인데 이 코드가 여기에 있는건 맞지 않는것 같다
     private void OnEnable()
     {
         gameManager.NewOrder();

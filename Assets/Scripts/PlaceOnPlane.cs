@@ -50,10 +50,6 @@ public class PlaceOnPlane : MonoBehaviour
                     spawnObject = Instantiate(placeDispenser, hitPose.position, hitPose.rotation);
                     playUIManager.enabled = true;
                 }
-                //else
-                //{
-                //    spawnObject.transform.position = hitPose.position;
-                //}
             }
         }
     }

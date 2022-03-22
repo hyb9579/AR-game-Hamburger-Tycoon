@@ -44,7 +44,6 @@ public class PickIngredients : MonoBehaviour
     private GameObject hamburgerPos;
 
     // 처음 또는 쌓은 햄버거를 리셋시켜야 할때, 비어있는 햄버거가 필요한데, 그때 사용할 게임 오브젝트를 참조
-    // 빈 게임 오브젝트가 아니라 다른 방법으로 쌓은 햄버거를 비울 수 있는지 개선점 찾을 필요
     [SerializeField]
     private GameObject emptyHGPrefab;
 
