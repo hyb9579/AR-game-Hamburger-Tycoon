@@ -97,10 +97,6 @@ public class PlayUIManager : MonoBehaviour
     [SerializeField]
     private Text DebugLog;
 
-    // 클리어시 나오는 패널이 active인지 아닌지 확인하는 변수
-    // 따로 이런 변수를 둘 필요 없이 클리어패널을 가져와서 상태를 확인하는게 맞을것 같다
-    private bool isClearPanelOn = false;
-
     // 게임 플레이타임
     public float time = 0;
     
@@ -151,7 +147,7 @@ public class PlayUIManager : MonoBehaviour
         {
             placementButton.SetActive(false);
 
-            if (!isClearPanelOn)
+            if (!clearPanel.activeSelf)
             {
                 if(gameManager.specialOrderClearCnt < gameManager.specialOrederCnt || (gameManager.unsatisfiedCunstomerCnt > 0))
                 {
@@ -165,8 +161,6 @@ public class PlayUIManager : MonoBehaviour
                 endTimeText.text = time.ToString();
 
                 customerCNT.text = (gameManager.normalOrderClearCnt + gameManager.specialOrderClearCnt).ToString();
-
-                isClearPanelOn = true;
             }
 
             return;
