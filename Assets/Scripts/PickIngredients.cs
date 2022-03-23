@@ -166,6 +166,7 @@ public class PickIngredients : MonoBehaviour
                 soundManager.WrongOrder();
 
                 gameManager.NewOrder();
+                UIManager.OrderInCol();
             }
             else
             {
@@ -186,6 +187,7 @@ public class PickIngredients : MonoBehaviour
                         soundManager.WrongOrder();
 
                         gameManager.NewOrder();
+                        UIManager.OrderInCol();
 
                         isCorrect = false;
                         break;
@@ -227,6 +229,7 @@ public class PickIngredients : MonoBehaviour
                     recipeDisplay.ResetHamburger();
 
                     gameManager.NewOrder();
+                    UIManager.OrderInCol();
                 }
             }
         }

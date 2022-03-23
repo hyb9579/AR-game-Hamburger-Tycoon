@@ -136,6 +136,7 @@ public class PlayUIManager : MonoBehaviour
     private void OnEnable()
     {
         gameManager.NewOrder();
+        OrderInCol();
     }
 
     // 게임 상황에 따라 여러 UI들을 변경시킴

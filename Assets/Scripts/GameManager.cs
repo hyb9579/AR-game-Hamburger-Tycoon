@@ -175,7 +175,8 @@ public class GameManager : MonoBehaviour
         recipeDisplay.GenRecipe();
         
         // 생성된 오더에 따라 고객 말풍선에 오더 표시
-        UIManager.OrderInCol();
+        // UIManager.OrderInCol();
+        // 이 코드는 상호 호출 문제를 해결하기 위해 주석처리함
     }
 
     // 오더 이름에 따라 재료 정하기
